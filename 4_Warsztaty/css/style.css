@@ -1,0 +1,351 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+a {text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    float: right;
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+.containerheader {
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.hclass {
+    text-transform: uppercase;
+    color:white;
+    float: left;
+    margin-left: 50px;
+}
+
+.tur {
+    color: turquoise;
+    padding: 0 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+
+    background: rgba(226,226,226,1);
+    background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(212,212,212,1) 74%, rgba(209,209,209,1) 91%, rgba(254,254,254,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(74%, rgba(212,212,212,1)), color-stop(91%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(212,212,212,1) 74%, rgba(209,209,209,1) 91%, rgba(254,254,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(212,212,212,1) 74%, rgba(209,209,209,1) 91%, rgba(254,254,254,1) 100%);
+    background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(212,212,212,1) 74%, rgba(209,209,209,1) 91%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(212,212,212,1) 74%, rgba(209,209,209,1) 91%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+
+}
+
+
+.containernoback {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.image_chair {
+    background-image: url("../images/black_chair.png");
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+}
+
+.chair {
+    height: 450px;
+    width: 30%;
+    float: left;
+    margin-left: 200px;
+    margin-right: 1px;
+}
+
+.chairtext h1 {
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 280px;
+    font-size: 50px;
+}
+
+.see {
+    width: 350px;
+    height: 50px;
+    border-radius: 12%;
+    background-color: turquoise;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    float:left;
+    margin-left: 150px;
+}
+
+
+.pstyle {
+    padding: 20px;
+    text-align: left;
+    padding-right: 150px;
+    width: 80%;
+}
+
+
+.sec3 {
+    float: left;
+    height: 300px;
+    display: inline-block;
+    width: 32%;
+    margin-top: 20px;
+}
+
+
+.sec3-mid {
+   float: left;
+    height: 300px;
+    display: inline-block;
+    width: 32%;
+    margin: 20px 10px 0 10px;
+}
+
+.sec3-right{
+    float: left;
+    height: 300px;
+    z-index: 1;
+    display:inline-block;
+    width: 32%;
+    margin-top: 20px;
+    border: lightgrey solid 1px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+
+.image_back2 {
+    background-image: url("../images/box2_img.jpg");
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+}
+
+
+
+.image_back1 {
+    background-image: url("../images/box1_img.jpg");
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+}
+
+
+
+.blurstrip {
+    background: rgba(255,255,255,0.3);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+}
+
+
+.pricing {
+    height: 800px;
+    float: left;
+    display:inline-block;
+    width: 32%;
+    border: #CCCCCC solid 5px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #F2F4F4;
+    position: relative;
+}
+
+
+.pricing-mid {
+    height: 800px;
+    float: left;
+    display: inline-block;
+    width: 32%;
+    border: solid turquoise 1px;
+    margin: 20px 10px 0 10px;
+    position: relative;
+    background-color: turquoise;
+    color: white;
+}
+
+
+.pricing-h3-mid {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.circprice {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 100px;
+    border: 2px solid black;
+    background-color: #FCFCFCF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    position: relative;
+    top: -20px;
+    left: 35px;
+    padding-top: 35px;
+}
+
+.circtop1 {}
+
+.circtop2 {}
+
+
+.strip1 {
+    background: #C3C5C5;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 370px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+
+}
+
+
+.strip2 {
+    background: #D9DBDB;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 310px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+}
+
+.strip1-mid {
+    background: #FCFCFC;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 370px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+
+}
+
+
+.strip2-mid {
+    background: #D9DBDB;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 310px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+}
+
+.strip3 {
+    background: #C3C5C5;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 250px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+
+}
+
+
+.strip4 {
+    background: #D9DBDB;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 190px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 13px;
+}
+
+.join {
+    width: 200px;
+    height: 50px;
+    border-radius: 12%;
+    background-color: turquoise;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left:25%;
+}
+
+
+
+.join-revert {
+    width: 200px;
+    height: 50px;
+    border-radius: 12%;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left:25%;
+    color: turquoise;
+}
+
+.pricing-h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
+    color: turquoise;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.plnmsc {
+    font-size:20px
+}
+
+
+
